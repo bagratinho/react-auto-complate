@@ -1,0 +1,80 @@
+.autocomplate-wrapper {
+  position: relative;
+  width: 300px;
+}
+
+input {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  height: 50px;
+  padding: 5px 20px;
+  position: relative;
+  vertical-align: top;
+  border: solid 1px #dbdbdb;
+  background-color: #fff;
+  border-radius: 10px;
+  outline: none;
+  font-size: 20px;
+  color: #4176c7;
+  width: 100%;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #4176c7;
+}
+
+ul {
+  max-height: 400px;
+  overflow-y: auto;
+  border: solid 1px #4176c7;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: block;
+  list-style: none;
+  font-size: 16px;
+  text-align: left;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #4176c7;
+}
+
+li.highlight,
+li:hover {
+  background-color: #4176c7;
+  color: #fff;
+} 
+
+li:not(:last-child) {
+  border-bottom: solid 1px #4176c7;
+}
+
+li span {
+  color: #cccc28;
+}
+
+.top-offset {
+  top: 49px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.error ,
+.loading {
+  height: 40px;
+  line-height: 40px;
+  overflow-y: auto;
+  border: solid 1px #4176c7;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 0;
+  padding: 0 20px;
+}
